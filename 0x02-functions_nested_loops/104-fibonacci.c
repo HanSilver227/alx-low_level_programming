@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - Entry point
  *
- * Return: nothing
+ * Return: lways 0 (Success)
  */
 
 int main(void)
 {
 	int counter = 2;
+
 	float a = 1;
 	float b = a + 1;
 	float c = a + b;
