@@ -21,7 +21,7 @@ int main(void)
 		}
 		if (i % 5 == 0)
 		{
-			printf(B"uzz");
+			printf("Buzz");
 		}
 		}
 	else
