@@ -69,3 +69,7 @@ terminating null byte (\0), to the buffer pointed to by dest.
 ```
 Write a function that convert a string to an integer.
 ```
+
+[101-keygen.c](./101-keygen.c)
+```
+Create a program that generates random valid passwords for the program "101-crackme."
