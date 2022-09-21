@@ -19,7 +19,7 @@ char *cap_string(char *str)
 			|| str[i - 1] == ',' || str[i - 1] == '!' || str[i - 1] == '?'
 			|| str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')'
 			|| str[i - 1] == '{' || str[i - 1] == '}')
-				&& (str[i] >= 'a' && str[i] <= 'z'))
+			&& (str[i] >= 'a' && str[i] <= 'z'))
 		{
 			str[i] = str[i] - 32;
 		}
