@@ -8,20 +8,23 @@
 
 char *leet(char *str)
 {
-	char s[] = a4e3o0t7l1;
-	int i;
-	int j;
+int i, j;
+char s[] = a4e3o0t7l1;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		for (j = 0; s[j] != '\0'; j++)
-		{
-			if (str[i] == s[j])
-			{
-				str[i] = s[j + 1];
-				break;
-			}
-		}
-	}
-	return (str);
+i = 0;
+j = 0;
+
+while (str[i] != '\0')
+{
+for (j = 0; j < 10; j += 2)
+{
+if (str[i] == s[j] || str[i] == s[j] - 32)
+{
+str[i] = s[j + 1];
+break;
+}
+}
+i++;
+}
+return (str);
 }
