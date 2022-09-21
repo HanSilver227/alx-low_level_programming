@@ -1,4 +1,4 @@
-#include "main.h'"
+#include "main.h"
 
 /**
  * _strcmp - a function that copies a string
