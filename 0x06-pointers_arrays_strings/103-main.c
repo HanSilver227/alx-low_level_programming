@@ -19,7 +19,7 @@ int main(void)
 	res = infinite_add(n, m, r, 100);
 	if (res == 0)
 	{
-	       	printf("Error\n");
+		printf("Error\n");
 	}
 	else
 	{
@@ -29,9 +29,9 @@ int main(void)
 	m = "1";
 	res = infinite_add(n, m, r2, 10);
 	if (res == 0)
-		{
-			printf("Error\n");
-		}
+	{
+		printf("Error\n");
+	}
 	else
 	{
 		printf("%s + %s = %s\n", n, m, res);
