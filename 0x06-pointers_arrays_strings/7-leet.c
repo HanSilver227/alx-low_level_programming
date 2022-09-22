@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * *leet - a function that encodes a string into 1337
- * @str: string
- * Return: string
+ *  *leet - a function that encodes a string in 1337
+ *  @strr: string
+ *  Return: string
  */
 
 char *leet(char *str)
 {
 	int i, j;
 
-	char s[] = a4e3o0t7l1;
+	char s[] = "a4e3o0t7l1";
 
 	i = 0;
 	j = 0;
