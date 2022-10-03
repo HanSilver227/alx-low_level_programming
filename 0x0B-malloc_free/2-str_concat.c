@@ -19,8 +19,10 @@ char *str_concat(char *s1, char *s2)
 	j = 0;
 	k = 0;
 
-	s1 = " ";
-	s2 = " ";
+	if (!s1)
+		s1 = "";
+	if (!s2)
+		s2 = "";
 	while (s1[i])
 		i += 1;
 	while (s2[j])
