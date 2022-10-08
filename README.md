@@ -17,3 +17,4 @@ An Introduction to C language, for the first sprint(Probationary session) of the
 - 0x09-static_libraries
 - 0x0A-argc_argv
 - 0x0B-malloc_free
+- 0x0C-more_malloc_free
