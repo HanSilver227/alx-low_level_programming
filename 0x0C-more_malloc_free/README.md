@@ -14,7 +14,7 @@
 - A function that creates an array of integers.
 
 [100-realloc.c](./100-realloc.c)
-- A funtion that reallocates memory block. using malloc and free.
+- A funtion that reallocates memory block. using ``malloc`` and ``free``.
 
 [101-mul.c](./101-mul.c)
 - A program that multiplies two positive numbers.
