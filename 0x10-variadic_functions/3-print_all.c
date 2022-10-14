@@ -46,7 +46,7 @@ void print_string(va_list vargs)
 {
 	char *ch;
 
-	ch = va_args(vargs, char*);
+	ch = va_arg(vargs, char*);
 	if (ch == NULL)
 	{
 		printf("(nil)");
@@ -61,11 +61,11 @@ void print_string(va_list vargs)
  * Return: nothing
  */
 
-void print_all(const char *const format, ...)
+void print_all(const char * const format, ...)
 {
 	int i, j;
 	char *str = "";
-	va_list vargs;
+	va_list args;
 
 	form p[] = {
 		{"c", print_char},
@@ -87,9 +87,9 @@ void print_all(const char *const format, ...)
 				p[j].func(args);
 				str = ",";
 			}
-			j++
+			j++;
 		}
-		i++
+		i++;
 	}
 	va_end(args);
 	printf("\n");
