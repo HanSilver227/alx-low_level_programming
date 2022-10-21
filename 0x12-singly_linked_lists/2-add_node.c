@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * add_node - adds a new node
