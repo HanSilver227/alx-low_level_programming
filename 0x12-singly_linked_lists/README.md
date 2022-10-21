@@ -1,4 +1,4 @@
-## 0x11 - Singly Linked Lists
+## 0x12 - Singly Linked Lists
 
 ### Scripts
 
