@@ -7,7 +7,7 @@
  * add_node - adds a new node
  * @head: address of head
  * @str: string to work with
- * Return: returns address of a new node
+ * Return: returns address of a new node or NULL if it failed.
  */
 
 list_t *add_node(list_t **head, const char *str)
