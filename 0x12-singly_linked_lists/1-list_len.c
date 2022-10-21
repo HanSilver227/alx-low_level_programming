@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * list_len - length of list_t struct
- * @h: head node
+ * @h: pointer to the struct_list
  * Return: number of elements
  */
 
